@@ -5,3 +5,5 @@ awk 'a[$0]++{exit 1}' ./data/train/utt2spk || (
     # of the test command. Check `help [`
     [ "$answer" == "y" ] && uniq ./data/train/utt2spk > ./data/train/utt2spk.uniq
 )
+
+
