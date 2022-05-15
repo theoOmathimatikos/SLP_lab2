@@ -5,3 +5,6 @@ wav
 lab2_env
 usc/data/wav
 /kaldi/
+usc/data/train/*
+usc/data/test/*
+usc/data/dev/*
