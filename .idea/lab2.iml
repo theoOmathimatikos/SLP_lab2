@@ -3,6 +3,17 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/egs/usc/data/wav" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/irstlm/src/.deps" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/irstlm/autom4te.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/irstlm/m4" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/cub-1.8.0" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/OpenBLAS" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/openfst-1.7.2" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/python" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/sctk-20159b5" />
+      <excludeFolder url="file://$MODULE_DIR$/kaldi/tools/sph2pipe_v2.5" />
+      <excludeFolder url="file://$MODULE_DIR$/lab2_env" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.9 (lab2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

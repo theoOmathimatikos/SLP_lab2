@@ -1,7 +1,7 @@
-# compute-mfcc-feats --write-utt2dur=ark,t:../../../../usc/data/train/log/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:../../../../usc/data/train/log/wav_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:../../../../usc/data/train/log/utt2num_frames.1 --compress=true ark:- ark,scp:/Users/jimkarpodinis/Downloads/DSML/NLP/SLP_lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.ark,/Users/jimkarpodinis/Downloads/DSML/NLP/SLP_lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.scp 
-# Started at Sun May 15 10:03:19 EEST 2022
+# compute-mfcc-feats --write-utt2dur=ark,t:../../../../usc/data/train/log/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:../../../../usc/data/train/log/wav_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:../../../../usc/data/train/log/utt2num_frames.1 --compress=true ark:- ark,scp:/home/thodoris/Documents/lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.ark,/home/thodoris/Documents/lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.scp 
+# Started at Sun May 15 12:52:03 EEST 2022
 #
-copy-feats --write-num-frames=ark,t:../../../../usc/data/train/log/utt2num_frames.1 --compress=true ark:- ark,scp:/Users/jimkarpodinis/Downloads/DSML/NLP/SLP_lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.ark,/Users/jimkarpodinis/Downloads/DSML/NLP/SLP_lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.scp 
+copy-feats --write-num-frames=ark,t:../../../../usc/data/train/log/utt2num_frames.1 --compress=true ark:- ark,scp:/home/thodoris/Documents/lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.ark,/home/thodoris/Documents/lab2/kaldi/egs/wsj/s5/../../../../usc/data/train/data/raw_mfcc_train.1.scp 
 compute-mfcc-feats --write-utt2dur=ark,t:../../../../usc/data/train/log/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:../../../../usc/data/train/log/wav_train.1.scp ark:- 
 VLOG[2] (compute-mfcc-feats[5.5.1023~1-d673]:main():compute-mfcc-feats.cc:182) Processed features for key f1_003
 VLOG[2] (compute-mfcc-feats[5.5.1023~1-d673]:main():compute-mfcc-feats.cc:182) Processed features for key f1_004
@@ -368,5 +368,5 @@ LOG (compute-mfcc-feats[5.5.1023~1-d673]:main():compute-mfcc-feats.cc:181) Proce
 VLOG[2] (compute-mfcc-feats[5.5.1023~1-d673]:main():compute-mfcc-feats.cc:182) Processed features for key f1_460
 LOG (compute-mfcc-feats[5.5.1023~1-d673]:main():compute-mfcc-feats.cc:185)  Done 330 out of 330 utterances.
 LOG (copy-feats[5.5.1023~1-d673]:main():copy-feats.cc:143) Copied 330 feature matrices.
-# Accounting: time=5 threads=1
-# Ended (code 0) at Sun May 15 10:03:24 EEST 2022, elapsed time 5 seconds
+# Accounting: time=8 threads=1
+# Ended (code 0) at Sun May 15 12:52:11 EEST 2022, elapsed time 8 seconds

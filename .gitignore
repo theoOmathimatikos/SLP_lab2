@@ -1,6 +1,7 @@
-kaldi
 kaldi-tutorial.pdf
 Kaldi_install_help.pdf
 usc/path.sh
 wav
 lab2_env
+usc/data/wav
+/kaldi/

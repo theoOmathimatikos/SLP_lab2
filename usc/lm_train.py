@@ -13,7 +13,7 @@ def create_file():
             new_text = "<s> " + text[:-1] + " </s>"
             new_lines.append(id + " " + new_text)
 
-        with open(path + "/lm_test.text", "w+") as f:
+        with open(path + "/lm_train.text", "w+") as f:
             for line in new_lines:
                 f.write(line + "\n")
 
