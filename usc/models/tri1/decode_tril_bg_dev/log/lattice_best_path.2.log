@@ -1,0 +1,47 @@
+# lattice-depth-per-frame "ark:gunzip -c models/tri1/decode_tril_bg_dev/lat.2.gz|" "ark,t:|gzip -c > models/tri1/decode_tril_bg_dev/depth_tmp.2.gz" ark:- | lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null "ark,t:|gzip -c >models/tri1/decode_tril_bg_dev/ali_tmp.2.gz" 
+# Started at Mon May 16 17:26:04 EEST 2022
+#
+lattice-depth-per-frame 'ark:gunzip -c models/tri1/decode_tril_bg_dev/lat.2.gz|' 'ark,t:|gzip -c > models/tri1/decode_tril_bg_dev/depth_tmp.2.gz' ark:- 
+lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null 'ark,t:|gzip -c >models/tri1/decode_tril_bg_dev/ali_tmp.2.gz' 
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_002, best cost 110.701 + 3274.99 = 3385.69 over 380 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_014, best cost 95.6889 + 2387.47 = 2483.16 over 270 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_027, best cost 93.3519 + 2685.65 = 2779 over 292 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_039, best cost 100.837 + 4345.97 = 4446.8 over 493 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_052, best cost 123.179 + 3683.61 = 3806.79 over 421 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_064, best cost 140.977 + 3970 = 4110.98 over 460 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_077, best cost 132.356 + 3613.06 = 3745.41 over 431 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_089, best cost 84.5374 + 2916.27 = 3000.81 over 352 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_102, best cost 95.9248 + 3149.33 = 3245.25 over 381 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_114, best cost 107.528 + 3353.97 = 3461.5 over 396 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_127, best cost 100.209 + 4050.97 = 4151.18 over 482 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_139, best cost 231.261 + 6174.79 = 6406.05 over 694 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_152, best cost 141.944 + 3811.87 = 3953.82 over 462 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_164, best cost 79.3306 + 3304.54 = 3383.87 over 404 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_177, best cost 77.9575 + 2812.59 = 2890.55 over 341 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_189, best cost 97.6035 + 3161.98 = 3259.59 over 406 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_202, best cost 138.043 + 3676.87 = 3814.91 over 452 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_214, best cost 101.62 + 3053.24 = 3154.86 over 367 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_227, best cost 109.322 + 3287.42 = 3396.75 over 387 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_239, best cost 106.061 + 3319.82 = 3425.88 over 399 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_252, best cost 173.851 + 4944.25 = 5118.1 over 593 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_264, best cost 234.6 + 5631.13 = 5865.73 over 622 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_277, best cost 85.2461 + 2457.74 = 2542.98 over 310 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_289, best cost 149.466 + 4209.84 = 4359.3 over 515 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_302, best cost 174.28 + 4946.83 = 5121.11 over 583 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_314, best cost 182.69 + 5406.88 = 5589.57 over 650 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_327, best cost 137.848 + 3954.41 = 4092.26 over 472 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_339, best cost 118.25 + 3519.66 = 3637.91 over 425 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_352, best cost 128.471 + 3711.96 = 3840.43 over 453 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_364, best cost 126.615 + 3808.93 = 3935.54 over 449 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_377, best cost 107.551 + 3403.9 = 3511.45 over 412 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_389, best cost 171.272 + 4776 = 4947.27 over 551 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_402, best cost 72.808 + 3455.18 = 3527.98 over 410 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_414, best cost 72.4252 + 3585.68 = 3658.1 over 414 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_427, best cost 268.878 + 6583.67 = 6852.54 over 779 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_439, best cost 109.011 + 3284.14 = 3393.15 over 403 frames.
+LOG (lattice-depth-per-frame[5.5.1023~1-d673]:main():lattice-depth-per-frame.cc:82) Done 37 lattices.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:99) For utterance f5_452, best cost 134.964 + 3520.05 = 3655.01 over 412 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:124) Overall cost per frame is 8.72758 = 0.282046 [graph] + 8.44553 [acoustic] over 16723 frames.
+LOG (lattice-best-path[5.5.1023~1-d673]:main():lattice-best-path.cc:128) Done 37 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon May 16 17:26:04 EEST 2022, elapsed time 0 seconds

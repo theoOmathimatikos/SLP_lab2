@@ -1,0 +1,5 @@
+# cat models/tri1/decode_tril_ug_test/scoring_kaldi/penalty_0.5/17.txt | compute-wer --text --mode=present ark:models/tri1/decode_tril_ug_test/scoring_kaldi/test_filt.txt ark,p:- >& models/tri1/decode_tril_ug_test/wer_17_0.5 
+# Started at Mon May 16 17:21:55 EEST 2022
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon May 16 17:21:55 EEST 2022, elapsed time 0 seconds

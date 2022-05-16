@@ -1,0 +1,9 @@
+# ali-to-phones --write-lengths=true models/tri1/decode_tril_bg_dev/../final.mdl "ark:gunzip -c models/tri1/decode_tril_bg_dev/ali_tmp.2.gz|" ark,t:- | perl -ne 'chomp;s/^\S+\s*//;@a=split /\s;\s/, $_;$count{"begin ".$a[$0]."\n"}++;
+  if(@a>1){$count{"end ".$a[-1]."\n"}++;}for($i=0;$i<@a;$i++){$count{"all ".$a[$i]."\n"}++;}
+  END{for $k (sort keys %count){print "$count{$k} $k"}}' | gzip -c > models/tri1/decode_tril_bg_dev/phone_stats.2.gz 
+# Started at Mon May 16 17:26:04 EEST 2022
+#
+ali-to-phones --write-lengths=true models/tri1/decode_tril_bg_dev/../final.mdl 'ark:gunzip -c models/tri1/decode_tril_bg_dev/ali_tmp.2.gz|' ark,t:- 
+LOG (ali-to-phones[5.5.1023~1-d673]:main():ali-to-phones.cc:134) Done 37 utterances.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon May 16 17:26:04 EEST 2022, elapsed time 0 seconds

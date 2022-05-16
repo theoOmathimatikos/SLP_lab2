@@ -1,0 +1,2 @@
+sum-tree-stats models/tri1/treeacc models/tri1/1.treeacc models/tri1/2.treeacc models/tri1/3.treeacc models/tri1/4.treeacc 
+LOG (sum-tree-stats[5.5.1023~1-d673]:main():sum-tree-stats.cc:88) Wrote summed accs ( 17353 individual stats)

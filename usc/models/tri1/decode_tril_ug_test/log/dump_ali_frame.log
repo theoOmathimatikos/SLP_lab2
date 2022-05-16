@@ -1,0 +1,7 @@
+# ali-to-phones --per-frame=true models/tri1/decode_tril_ug_test/../final.mdl "ark:gunzip -c models/tri1/decode_tril_ug_test/ali_tmp.*.gz|" "ark,t:|gzip -c >models/tri1/decode_tril_ug_test/ali_frame_tmp.gz" 
+# Started at Mon May 16 17:21:40 EEST 2022
+#
+ali-to-phones --per-frame=true models/tri1/decode_tril_ug_test/../final.mdl 'ark:gunzip -c models/tri1/decode_tril_ug_test/ali_tmp.*.gz|' 'ark,t:|gzip -c >models/tri1/decode_tril_ug_test/ali_frame_tmp.gz' 
+LOG (ali-to-phones[5.5.1023~1-d673]:main():ali-to-phones.cc:134) Done 367 utterances.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon May 16 17:21:40 EEST 2022, elapsed time 0 seconds
