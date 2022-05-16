@@ -1,0 +1,40 @@
+# gunzip -c models/mono/decode_uni_test/depth_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py models/mono/unigram_graph models/mono/decode_uni_test/ali_frame_tmp.gz 
+# Started at Sun May 15 22:19:19 EEST 2022
+#
+The total amount of data analyzed assuming 100 frames per second is 0.4 hours
+Overall, lattice depth (10,50,90-percentile)=(10,60,1126) and mean=418.4
+Nonsilence phones as a group account for 59.0% of frames, with lattice depth (10,50,90-percentile)=(18,114,1830) and mean=628.2
+Phone sil accounts for 33.8% of frames, with lattice depth (10,50,90-percentile)=(6,26,225) and mean=110.1
+Phone sil_S accounts for 7.2% of frames, with lattice depth (10,50,90-percentile)=(14,38,263) and mean=146.0
+Phone s_S accounts for 5.1% of frames, with lattice depth (10,50,90-percentile)=(15,66,1256) and mean=453.2
+Phone iy_S accounts for 3.8% of frames, with lattice depth (10,50,90-percentile)=(18,106,1785) and mean=631.9
+Phone l_S accounts for 3.8% of frames, with lattice depth (10,50,90-percentile)=(18,76,811) and mean=360.9
+Phone n_S accounts for 3.6% of frames, with lattice depth (10,50,90-percentile)=(33,182,2040) and mean=784.5
+Phone ah_S accounts for 3.4% of frames, with lattice depth (10,50,90-percentile)=(51,344,2578) and mean=982.0
+Phone r_S accounts for 2.9% of frames, with lattice depth (10,50,90-percentile)=(19,90,1684) and mean=555.8
+Phone z_S accounts for 2.9% of frames, with lattice depth (10,50,90-percentile)=(9,76,1166) and mean=424.9
+Phone k_S accounts for 2.6% of frames, with lattice depth (10,50,90-percentile)=(19,137,2918) and mean=857.8
+Phone t_S accounts for 2.5% of frames, with lattice depth (10,50,90-percentile)=(39,261,3052) and mean=1003.3
+Phone er_S accounts for 2.2% of frames, with lattice depth (10,50,90-percentile)=(13,72,1063) and mean=445.2
+Phone ih_S accounts for 1.8% of frames, with lattice depth (10,50,90-percentile)=(35,275,2399) and mean=898.5
+Phone aa_S accounts for 1.8% of frames, with lattice depth (10,50,90-percentile)=(17,79,1367) and mean=484.4
+Phone m_S accounts for 1.7% of frames, with lattice depth (10,50,90-percentile)=(18,148,1999) and mean=679.0
+Phone p_S accounts for 1.7% of frames, with lattice depth (10,50,90-percentile)=(25,125,2279) and mean=705.9
+Phone ay_S accounts for 1.7% of frames, with lattice depth (10,50,90-percentile)=(12,72,1107) and mean=398.3
+Phone ae_S accounts for 1.5% of frames, with lattice depth (10,50,90-percentile)=(13,70,1574) and mean=550.1
+Phone f_S accounts for 1.4% of frames, with lattice depth (10,50,90-percentile)=(16,97,1389) and mean=498.9
+Phone d_S accounts for 1.3% of frames, with lattice depth (10,50,90-percentile)=(75,418,3555) and mean=1296.5
+Phone ey_S accounts for 1.3% of frames, with lattice depth (10,50,90-percentile)=(10,53,718) and mean=309.0
+Phone sh_S accounts for 1.3% of frames, with lattice depth (10,50,90-percentile)=(15,74,1333) and mean=421.0
+Phone w_S accounts for 1.1% of frames, with lattice depth (10,50,90-percentile)=(8,73,783) and mean=349.8
+Phone ao_S accounts for 1.0% of frames, with lattice depth (10,50,90-percentile)=(15,84,1303) and mean=472.6
+Phone b_S accounts for 0.9% of frames, with lattice depth (10,50,90-percentile)=(32,301,2101) and mean=919.1
+Phone ch_S accounts for 0.9% of frames, with lattice depth (10,50,90-percentile)=(21,84,1206) and mean=371.6
+Phone uw_S accounts for 0.9% of frames, with lattice depth (10,50,90-percentile)=(21,124,1899) and mean=675.7
+Phone ow_S accounts for 0.9% of frames, with lattice depth (10,50,90-percentile)=(23,129,1764) and mean=592.2
+Phone eh_S accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(27,239,3550) and mean=1110.0
+Phone ng_S accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(20,90,2453) and mean=672.2
+Phone jh_S accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(26,131,1258) and mean=427.6
+Phone g_S accounts for 0.5% of frames, with lattice depth (10,50,90-percentile)=(40,266,2595) and mean=862.6
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun May 15 22:19:19 EEST 2022, elapsed time 0 seconds
