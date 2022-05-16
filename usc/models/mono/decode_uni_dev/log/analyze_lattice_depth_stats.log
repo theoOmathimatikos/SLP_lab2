@@ -1,5 +1,5 @@
 # gunzip -c models/mono/decode_uni_dev/depth_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py models/mono/unigram_graph models/mono/decode_uni_dev/ali_frame_tmp.gz 
-# Started at Sun May 15 22:08:18 EEST 2022
+# Started at Mon May 16 15:59:14 EEST 2022
 #
 The total amount of data analyzed assuming 100 frames per second is 0.2 hours
 Overall, lattice depth (10,50,90-percentile)=(9,46,696) and mean=329.9
@@ -38,4 +38,4 @@ Phone eh_S accounts for 0.6% of frames, with lattice depth (10,50,90-percentile)
 Phone ch_S accounts for 0.5% of frames, with lattice depth (10,50,90-percentile)=(19,73,1269) and mean=308.0
 Phone ng_S accounts for 0.5% of frames, with lattice depth (10,50,90-percentile)=(26,112,545) and mean=218.7
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sun May 15 22:08:18 EEST 2022, elapsed time 0 seconds
+# Ended (code 0) at Mon May 16 15:59:14 EEST 2022, elapsed time 0 seconds

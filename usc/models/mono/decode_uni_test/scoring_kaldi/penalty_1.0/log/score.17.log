@@ -1,0 +1,5 @@
+# cat models/mono/decode_uni_test/scoring_kaldi/penalty_1.0/17.txt | compute-wer --text --mode=present ark:models/mono/decode_uni_test/scoring_kaldi/test_filt.txt ark,p:- >& models/mono/decode_uni_test/wer_17_1.0 
+# Started at Mon May 16 16:14:07 EEST 2022
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon May 16 16:14:07 EEST 2022, elapsed time 0 seconds

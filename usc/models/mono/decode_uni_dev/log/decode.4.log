@@ -1,5 +1,5 @@
 # gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=models/mono/unigram_graph/words.txt models/mono/final.mdl models/mono/unigram_graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/dev/split4/4/utt2spk scp:data/dev/split4/4/cmvn.scp scp:data/dev/split4/4/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > models/mono/decode_uni_dev/lat.4.gz" 
-# Started at Sun May 15 22:06:27 EEST 2022
+# Started at Mon May 16 15:57:05 EEST 2022
 #
 gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=models/mono/unigram_graph/words.txt models/mono/final.mdl models/mono/unigram_graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/dev/split4/4/utt2spk scp:data/dev/split4/4/cmvn.scp scp:data/dev/split4/4/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > models/mono/decode_uni_dev/lat.4.gz' 
 add-deltas ark:- ark:- 
@@ -101,8 +101,8 @@ m3_439 t r ey d ah z ao f ah s r ey iy er z
 LOG (gmm-latgen-faster[5.5.1023~1-d673]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance m3_439 is -7.16301 over 413 frames.
 m3_452 t iy ah d ih ng aa t w er f ao r f r eh sh r l zh sil 
 LOG (gmm-latgen-faster[5.5.1023~1-d673]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance m3_452 is -7.31413 over 481 frames.
-LOG (gmm-latgen-faster[5.5.1023~1-d673]:main():gmm-latgen-faster.cc:176) Time taken 80.391s: real-time factor assuming 100 frames/sec is 0.494501
+LOG (gmm-latgen-faster[5.5.1023~1-d673]:main():gmm-latgen-faster.cc:176) Time taken 94.8379s: real-time factor assuming 100 frames/sec is 0.583367
 LOG (gmm-latgen-faster[5.5.1023~1-d673]:main():gmm-latgen-faster.cc:179) Done 37 utterances, failed for 0
 LOG (gmm-latgen-faster[5.5.1023~1-d673]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.40176 over 16257 frames.
-# Accounting: time=81 threads=1
-# Ended (code 0) at Sun May 15 22:07:48 EEST 2022, elapsed time 81 seconds
+# Accounting: time=94 threads=1
+# Ended (code 0) at Mon May 16 15:58:39 EEST 2022, elapsed time 94 seconds

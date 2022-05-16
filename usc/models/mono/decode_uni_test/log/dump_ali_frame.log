@@ -1,7 +1,7 @@
 # ali-to-phones --per-frame=true models/mono/decode_uni_test/../final.mdl "ark:gunzip -c models/mono/decode_uni_test/ali_tmp.*.gz|" "ark,t:|gzip -c >models/mono/decode_uni_test/ali_frame_tmp.gz" 
-# Started at Sun May 15 22:19:18 EEST 2022
+# Started at Mon May 16 16:09:29 EEST 2022
 #
 ali-to-phones --per-frame=true models/mono/decode_uni_test/../final.mdl 'ark:gunzip -c models/mono/decode_uni_test/ali_tmp.*.gz|' 'ark,t:|gzip -c >models/mono/decode_uni_test/ali_frame_tmp.gz' 
 LOG (ali-to-phones[5.5.1023~1-d673]:main():ali-to-phones.cc:134) Done 367 utterances.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sun May 15 22:19:18 EEST 2022, elapsed time 0 seconds
+# Ended (code 0) at Mon May 16 16:09:29 EEST 2022, elapsed time 0 seconds

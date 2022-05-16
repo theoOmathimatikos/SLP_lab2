@@ -1,0 +1,10 @@
+# cat models/mono/decode_bi_dev/scoring_kaldi/penalty_0.0/7.txt | align-text --special-symbol='***' ark:models/mono/decode_bi_dev/scoring_kaldi/test_filt.txt ark:- ark,t:- | utils/scoring/wer_per_utt_details.pl --special-symbol '***' | tee models/mono/decode_bi_dev/scoring_kaldi/wer_details/per_utt | utils/scoring/wer_per_spk_details.pl data/dev/utt2spk > models/mono/decode_bi_dev/scoring_kaldi/wer_details/per_spk 
+# Started at Mon May 16 16:16:51 EEST 2022
+#
+align-text '--special-symbol=***' ark:models/mono/decode_bi_dev/scoring_kaldi/test_filt.txt ark:- ark,t:- 
+LOG (align-text[5.5.1023~1-d673]:main():align-text.cc:135) Done 148 sentences, failed for 0
+utils/scoring/wer_per_utt_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon May 16 16:16:52 EEST 2022, elapsed time 1 seconds

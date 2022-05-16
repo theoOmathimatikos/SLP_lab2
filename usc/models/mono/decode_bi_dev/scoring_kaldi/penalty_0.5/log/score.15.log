@@ -1,0 +1,5 @@
+# cat models/mono/decode_bi_dev/scoring_kaldi/penalty_0.5/15.txt | compute-wer --text --mode=present ark:models/mono/decode_bi_dev/scoring_kaldi/test_filt.txt ark,p:- >& models/mono/decode_bi_dev/wer_15_0.5 
+# Started at Mon May 16 16:16:44 EEST 2022
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon May 16 16:16:44 EEST 2022, elapsed time 0 seconds
