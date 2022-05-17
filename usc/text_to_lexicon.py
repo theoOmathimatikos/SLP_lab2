@@ -13,7 +13,10 @@ def clean_text(s):
 
 
 def convert_text_to_lexicon():
-
+    """ This function first reads the lines of the lexicon file and creates a dictionary that matches each word to
+    its corresponing phoneme. Then, for each sentence of the different files, it splits it into words and finds its
+    corresponding phonemes. After that, it adds the strings of the phonemes of a sentence and writes the results in a new file.
+    """
     dir = os.getcwd()
     # read the lines of the lexicon.txt file
     with open(dir + "/lexicon.txt") as f:
